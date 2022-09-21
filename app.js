@@ -5,7 +5,7 @@ const cors = require("cors");
 // Morgan will log response codes after the response is sent
 const morgan = require("morgan");
 const contactsRouter = require("./app/routes/contact.route");
-// const ApiError = require("./app/api-error");
+const ApiError = require("./app/api-error");
 
 const app = express();
 
